@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedro's Website</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 2rem;
+      background: #fff;
+      color: #000;
+      font-family: monospace;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    h1, h2 {
+      margin: 1rem 0;
+    }
+
+    nav {
+      margin-bottom: 2rem;
+    }
+
+    a {
+      color: #000;
+      text-decoration: underline;
+    }
+
+    a:hover {
+      background: #000;
+      color: #fff;
+    }
+
+    .section {
+      margin-bottom: 3rem;
+      border: 1px solid #000;
+      padding: 1rem;
+    }
+
+    .note {
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1>Pedro</h1>
+  <nav>
+    <a href="#about">about</a> | 
+    <a href="#work">work</a> | 
+    <a href="#writing">writing</a> | 
+    <a href="#contact">contact</a>
+  </nav>
+
+  <div class="section" id="about">
+    <h2>about</h2>
+    <p>CFD engineer, thinker, dad. Living in Antwerp, building digital wind tunnels and writing when possible.</p>
+    <p class="note">Warning: may contain strong opinions about oxford commas.</p>
+  </div>
+
+  <div class="section" id="work">
+    <h2>work</h2>
+    <ul>
+      <li>CFD simulations for offshore vessels</li>
+      <li>AI in breakwater design (ongoing)</li>
+      <li>Organizer of Hydro Day</li>
+    </ul>
+  </div>
+
+  <div class="section" id="writing">
+    <h2>writing</h2>
+    <p>Visit my Substack: <a href="#">Sim-ply Put</a></p>
+    <p>Philosophy, engineering, wind, and sometimes parenting.</p>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>contact</h2>
+    <p>Email me: <a href="mailto:pedro@example.com">pedro@example.com</a></p>
+    <p class="note">Or don’t. That’s fine too.</p>
+  </div>
+</body>
+</html>
